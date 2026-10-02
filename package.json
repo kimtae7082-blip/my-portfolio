@@ -1,0 +1,24 @@
+{
+  "name": "ai-journalism-portfolio",
+  "version": "1.0.0",
+  "description": "AI 데이터 저널리스트 포트폴리오 웹",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.22.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimtae7082-blip/my-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kimtae7082-blip/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/kimtae7082-blip/my-portfolio#readme"
+}
