@@ -10,21 +10,31 @@
   <header class="header">
     <div class="container">
       <h1>AI 데이터 저널리스트 포트폴리오</h1>
-      <p>수집 · 분석 · AI 생성 · 서비스 개발 결과물 모음</p>
+      <p>데이터 수집 · 생성형 AI · Web App · 영상 콘텐츠 결과물 모음</p>
     </div>
   </header>
 
   <main class="container">
+    <!-- 카테고리 필터링 버튼 -->
     <section class="filter-section">
       <button class="filter-btn active" data-category="all">전체보기</button>
-      <button class="filter-btn" data-category="Video">영상</button>
       <button class="filter-btn" data-category="Web / API">웹 & API</button>
+      <button class="filter-btn" data-category="Video">영상</button>
     </section>
 
+    <!-- 포트폴리오 카드 그리드 -->
     <section id="portfolio-grid" class="grid-container">
-      <!-- JavaScript를 통해 프로젝트 카드가 동적으로 추가됩니다 -->
+      <!-- JavaScript로 동적 생성됩니다 -->
     </section>
   </main>
+
+  <!-- 상세 정보 및 영상 재생용 모달 -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
 
   <footer>
     <p>&copy; 2026 AI Data Journalism Portfolio. All rights reserved.</p>
